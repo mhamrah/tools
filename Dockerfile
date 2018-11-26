@@ -8,7 +8,7 @@ RUN apt-get update && \
   iputils-ping \ 
   dnsutils \
   netcat \
-  
+  ca-certificates \
   && rm -rf /var/lib/apt/lists/*
 
 CMD ["bash"]
