@@ -9,6 +9,8 @@ RUN apt-get update && \
   dnsutils \
   netcat \
   ca-certificates \
-  && rm -rf /var/lib/apt/lists/*
+  tcpdump \
+  tcpflow \
+  && rm -rf /var/lib/apt/lists/* 
 
 CMD ["bash"]
